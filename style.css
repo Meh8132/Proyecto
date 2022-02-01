@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.navegacion{
+    background-color: #EB5226;
+    padding: 2% 7% 2%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.sticky + .content {
+    padding-top: 102px;
+  }

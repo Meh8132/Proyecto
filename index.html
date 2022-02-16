@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Libreria</title>
 </head>
 <body>
-    <header>
-        <div id="navegacion">
-            <div class="logo">
-              <img src="Recursos/En trabajo/Logo.png" alt="Logo" style="max-width:150px;">
-            </div>
-            <div class="busqueda-wrapper">
-                <form>
-                    <input type="text" placeholder="Busqueda" name="">
-                </form>
-            </div>
+    <nav class="navbar">
+        <div>
+            <a href="#"><img class="logo" src="Recursos/En trabajo/Logo.png" alt="Logo"></a>
         </div>
-        <header class="main-header">
-            <h1 class="main-header__title">LIBRERIA Y UTILES
-                <input type="search"><i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-user"></i>
-            </h1>
-            <p class="category"><i class="fa-solid fa-bars"> Categorias</i></a>
-        </header>
-    </header>
+        <div>
+            <form>
+                <input type="text" placeholder="Busqueda">
+            </form>
+        </div>
+        <ul class="nav-list">
+            <li class="list-item">
+                <a href="#">Carrito</a>
+            </li>
+            <li class="list-item">
+                <a href="#">Cuenta</a>
+            </li>
+        </ul>
+    </nav>
+
 </body>
 </html>

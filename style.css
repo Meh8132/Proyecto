@@ -2,8 +2,16 @@
 #navegacion{
     position: fixed;
     background-color: #EB5226;
-    padding: 2% 7% 2%;
+    padding: 1% 6% 1%;
     top: 0px;
     left: 0px;
     width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    
 }

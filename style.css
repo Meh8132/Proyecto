@@ -27,3 +27,27 @@
     justify-content: center;
     align-items: center;
 }
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.main-header{
+    background-color: orangered;
+}
+.main-header__title{
+    text-align: left;
+    font-size: 1cm;
+    margin: 0px 0;
+    color: white;
+}
+.category {
+    color: white;
+    font-size: 0.5cm;
+    margin: 0px 0;
+}

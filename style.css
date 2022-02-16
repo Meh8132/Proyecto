@@ -1,53 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-#navegacion{
-    position: fixed;
+
+
+.navbar{
     background-color: #EB5226;
-    padding: 1% 6% 1%;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#navegacion input[type=text] {
-    border: none;
-    font-family: "Open Sans";
-    font-size: 20px;
-    color:rgb(80, 80, 80)
-  }
-
-.busqueda-wrapper{
-    padding: 6px;
-    margin-top: 8px;
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-* {
-    box-sizing: border-box;
+.nav-list{
+    list-style-type: none;
 }
-body {
-    margin: 0;
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
 }
-img {
-    display: block;
-    width: 100%;
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
-.main-header{
-    background-color: orangered;
+.logo{
+    height: 120px;    
 }
-.main-header__title{
-    text-align: left;
-    font-size: 1cm;
-    margin: 0px 0;
-    color: white;
-}
-.category {
-    color: white;
-    font-size: 0.5cm;
-    margin: 0px 0;
-}
+.navbar input[type=text] {
+    border: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:rgb(80, 80, 80);
+    appearance: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 400px;
+  }
+

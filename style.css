@@ -53,13 +53,6 @@
 .icons:hover .icons-hover{
     display: inline;
 }
-.main-footer {
-    padding: 10px;
-}
-.footer__title {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-}
 .container-slider {
     width: 90%;
     max-width: 900px;
@@ -105,6 +98,13 @@
 }
 .slider__btn--right {
     right: 10px;
+}
+.main-footer {
+    padding: 10px;
+}
+.footer__title {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
  /*   background-color: #009e6f*/
 

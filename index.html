@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +9,37 @@
     <title>Libreria</title>
 </head>
 <body>
-    <header>
-        <div id="navegacion">
-            <div class="logo">
-              <img src="Recursos/En trabajo/Logo.png" alt="Logo" style="max-width:150px;">
-            </div>
-            <div class="busqueda-wrapper">
-                <form>
-                    <input type="text" placeholder="Busqueda" name="">
-                </form>
-            </div>
+    <nav class="navbar">
+        <div>
+            <a href="#"><img class="logo" src="Recursos/Visual/Logo.png" alt="Logo"></a>
         </div>
-    </header>
+        <div>
+            <form>
+                <input type="text" placeholder="Busqueda">
+            </form>
+        </div>
+        <ul class="nav-list">
+            <li class="list-item">
+                <a href="#">
+                    <img class="icons-hover"src="Recursos/Visual/Carrito hover.png" alt="Carrito">
+                    <img class="icons" src="Recursos/Visual/Carrito.png" alt="Carrito">
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="#">
+                    <img class="icons-hover"src="Recursos/Visual/Cuenta hover.png" alt="Cuenta">
+                    <img class="icons" src="Recursos/Visual/Cuenta.png" alt="Cuenta">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="drop-menu">
+          <span>Categorias</span>
+            <ul>
+                <li><a href="#">Placeholder</a></li>
+                <li><a href="#">Placeholder</a></li>
+            </ul>
+    </nav>
+
 </body>
 </html>

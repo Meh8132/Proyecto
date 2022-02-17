@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     background-color: #EB5226;
     color: rgb(255, 255, 255);
@@ -26,7 +29,7 @@
 }
 .navbar input[type=text] {
     border: none;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color:rgb(80, 80, 80);
     appearance: none;
@@ -35,13 +38,26 @@
     width: 400px;
   }
 
-
-
+.icons{
+    height: 60px;
+    position: relative;
+}
+.icons-hover{
+    height: 60px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.icons:hover .icons-hover{
+    display: inline;
+}
 .container-slider {
     width: 90%;
     max-width: 900px;
     margin: auto;
-/*    overflow: hidden;*/
+    overflow: hidden;
     box-shadow: 0 0 0 10px #fff;
     position: relative;
 }
@@ -83,4 +99,5 @@
 .slider__btn--right {
     right: 10px;
 }
+ /*   background-color: #009e6f*/
 

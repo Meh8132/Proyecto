@@ -5,54 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Libreria</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div>
-            <a href="#"><img class="logo" src="Recursos/Visual/Logo.png" alt="Logo"></a>
-        </div>
-        <div>
-            <form>
-                <input type="text" placeholder="Busqueda">
-            </form>
-        </div>
-        <ul class="nav-list">
-            <li class="list-item">
-                <a href="#">
-                    <img class="icons-hover"src="Recursos/Visual/Carrito hover.png" alt="Carrito">
-                    <img class="icons" src="Recursos/Visual/Carrito.png" alt="Carrito">
-                </a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="padding: 1% 15%;">
+        <a class="navbar-brand" href="#"><img class="logo" src="Recursos/Visual/Logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="my-text nav-link" href="#">Carrito</a>
             </li>
-            <li class="list-item">
-                <a href="#">
-                    <img class="icons-hover"src="Recursos/Visual/Cuenta hover.png" alt="Cuenta">
-                    <img class="icons" src="Recursos/Visual/Cuenta.png" alt="Cuenta">
+            <li class="nav-item">
+                <a class="my-text nav-link" href="html/login.html">Cuenta</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle my-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
                 </a>
-            </li>
-        </ul>
+                <div class="dropdown-menu my-text" aria-labelledby="navbarDropdown" style="background-color: #009e6f;">
+                  <a class="dropdown-item my-text" href="#">Placeholder</a>
+                  <a class="dropdown-item my-text" href="#">Placeholder</a>
+                  <a class="dropdown-item my-text" href="#">Placeholder</a>
+                </div>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Busuqeda" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
     </nav>
     <div class="container-slider">
         <div class="slider" id="slider">
             <div class="slider__section">
-                <img src="" alt="" class="slider__img">
+                <img src="Recursos/Visual/Placeholder slider.jpg" alt="" class="slider__img">
             </div>
             <div class="slider__section">
-                <img src="" alt="" class="slider__img">
+                <img src="Recursos/Visual/Placeholder slider.jpg" alt="" class="slider__img">
             </div>
             <div class="slider__section">
-                <img src="" alt="" class="slider__img">
+                <img src="Recursos/Visual/Placeholder slider.jpg" alt="" class="slider__img">
             </div>
             <div class="slider__section">
-                <img src="" alt="" class="slider__img">
+                <img src="Recursos/Visual/Placeholder slider.jpg" alt="" class="slider__img">
             </div>
         </div>
         <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
         <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
     </div>
-    <script src="slider.js"></script>
-    <footer class="main-footer">
+    <div class="card-deck" style="margin: 3% 15%;">
+        <div class="card">
+          <img class="card-img-top" src="Recursos/Visual/Placeholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">$100.000</h5>
+            <p class="card-text">Descripcion del producto</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Informacion adicional</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Recursos/Visual/Placeholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">$100.000</h5>
+            <p class="card-text">Descripcion del producto</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Informacion adicional</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Recursos/Visual/Placeholder.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">$100.000</h5>
+            <p class="card-text">Descripcion del producto</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Informacion adicional</small>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
         <div class="footer__section">
             <h2 class="footer__title">Contacto</h2>
             <p class="footer__txt">Correo: soporte@litu.co<br>
@@ -61,6 +100,9 @@
                 Direccion: Av. Cra. 7 #40b-53 (Ofcina)</p>
         </div>
     </footer>
+    <script src="slider.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
-

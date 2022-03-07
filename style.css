@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
+:root{
+    --orange-main: #EB5226;
+    --green-main: #009e6f;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
 .navbar{
-    background-color: #EB5226;
+    background-color: var(--orange-main);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -114,16 +118,10 @@ input[type="text"],input[type="password"]{
     width: 82%;
     padding: 10px;
 }
-.button{
-    border: none;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    padding: 15px 20px;
-}
 
 
- /*   background-color: #009e6f*/
+
+
 
 
 

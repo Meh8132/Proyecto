@@ -119,6 +119,10 @@ input[type="text"],input[type="password"]{
     padding: 10px;
 }
 
+.bg-green{
+    background-color: var(--green-main);
+    color: whitesmoke;
+}
 
 
 

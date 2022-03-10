@@ -7,6 +7,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans" sans-serif !important;
 }
 
 .navbar{
@@ -88,14 +89,6 @@
 .slider__btn--right {
     right: 10px;
 }
-.main-footer {
-    padding: 10px;
-    margin: 3% 10%;
-}
-.footer__title {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-}
 
 .formulario {
     margin: 1% 20%;
@@ -118,6 +111,12 @@ input[type="text"],input[type="password"]{
     width: 82%;
     padding: 10px;
 }
+
+.bg-green{
+    background-color: var(--green-main);
+    color: whitesmoke;
+}
+
 .boton_añadir{
     width:60px;
     height:60px;
@@ -134,10 +133,13 @@ input[type="text"],input[type="password"]{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .boton_añadir:hover{
+}
+.boton_añadir:hover{
     opacity: 0.50;
     -moz-opacity: .50;
     filter:alpha (opacity=50);
-  }
+}
 
+.product-image{
+    max-height: 400px;
+}

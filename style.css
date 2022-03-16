@@ -143,3 +143,8 @@ input[type="text"],input[type="password"]{
 .product-image{
     max-height: 400px;
 }
+
+.bg-green-footer{
+    background-color: #08805c;
+    color: whitesmoke;
+}
